@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class LinkedStack {
     private int size;
     private Node top;
@@ -85,8 +89,17 @@ public class LinkedStack {
         stack.push("B");
         stack.push("C");
         System.out.println(stack);
-        System.out.println();
-        stack.pop();
-        System.out.println(stack);
+        Scanner scanner = null;
+        try {
+             scanner = new Scanner(new File("res/content.txt"));
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+        LinkedStack file = new LinkedStack();
+        while (scanner.hasNextLine()){
+            file.push(scanner.nextLine());
+        }
+        System.out.println(file);
+
     }
 }
