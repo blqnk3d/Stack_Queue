@@ -9,7 +9,7 @@ public class LinkedStack {
      * @param data The data that you want to push into the stack.
      */
     public void push(Object data) {
-        if (top == null) {
+        if (isEmpty()) {
             top = new Node(data, null);
         } else {
             Node temp = top;
@@ -85,7 +85,7 @@ public class LinkedStack {
         stack.push("B");
         stack.push("C");
         System.out.println(stack);
-        System.out.println(stack.size());
+        System.out.println();
         stack.pop();
         System.out.println(stack);
     }

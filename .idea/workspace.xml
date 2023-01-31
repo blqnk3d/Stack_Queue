@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70e8b1c7-27a9-4eee-b36f-8b281c2395b4" name="Changes" comment="Changes and added folder">
-      <change afterPath="$PROJECT_DIR$/test/LinkedStackTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack_Queue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Stack_Queue.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/LinkedStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinkedStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +33,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "H:/programieren/Klasse Zwei/Java/TextRPG",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -53,7 +53,7 @@
       <recent name="H:\programieren\Klasse Zwei\Java\Stack_Queue\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedStackTest">
+  <component name="RunManager" selected="JUnit.LinkedStackTest">
     <configuration name="LinkedStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LinkedStack" />
       <module name="Stack_Queue" />
@@ -102,8 +102,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedStackTest" />
         <item itemvalue="JUnit.LinkedStackTest" />
+        <item itemvalue="Application.LinkedStackTest" />
         <item itemvalue="JUnit.LinkedStackTest.testSize" />
         <item itemvalue="JUnit.LinkedStackTest.testToString" />
         <item itemvalue="JUnit.LinkedStackTest.testElement" />
@@ -118,7 +118,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675157968587</updated>
-      <workItem from="1675157970386" duration="3133000" />
+      <workItem from="1675157970386" duration="4683000" />
     </task>
     <task id="LOCAL-00001" summary="Changes and added folder">
       <created>1675159871733</created>
@@ -127,7 +127,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675159871733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes and added folder">
+      <created>1675161114489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675161114489</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Changes and added folder">
+      <created>1675161196635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675161196635</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
